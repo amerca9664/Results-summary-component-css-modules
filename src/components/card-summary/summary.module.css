@@ -1,0 +1,99 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+
+    margin-right: 200px;
+    font-size: 1.3rem;
+}
+
+
+.divCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    border-radius:10px;
+
+
+}
+
+.divCont--Reaction{
+    background-color: var(--ReactionDiv);
+
+}
+
+.divCont--Memory{
+    background-color: var(--MemoryDiv);
+
+}
+
+.divCont--Verbal{
+
+    background-color: var(--VerbalDiv);
+}
+
+.divCont--Visual{
+    background-color: var(--VisualDiv);
+
+}
+
+.iconDiv{
+    display: flex;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.labelReaction{
+    color: var(--Reaction);
+}
+.labelMemory{
+    color: var(--Memory);
+}
+.labelVerbal{
+    color: var(--Verbal);
+}
+.labelVisual{
+    color: var(--Visual);
+}
+
+.label{
+    font-weight: 700;
+}
+
+.label--num{
+    color: black;
+
+}
+
+.label--rest{
+    color: gray;
+}
+
+.button{
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--Dark_gray_blue);
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media (hover:hover){
+    button:hover{
+        background:linear-gradient(var(--Light_slate_blue_background), var(--Light_royal_blue_background));
+        cursor: pointer;
+    }
+}

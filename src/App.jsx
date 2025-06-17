@@ -1,7 +1,9 @@
+import Cards from './components/Cards/Cards';
+
 const App = () => {
 	return (
 		<div>
-			<h1>Curso de React</h1>
+			<Cards></Cards>
 		</div>
 	);
 };

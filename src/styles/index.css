@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+body{
+
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color:var(--Pale_blue);
+
+}
+
+
 img{
     max-width: 100%;
     display: block;
@@ -17,4 +25,25 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+@media (min-width: 600px) {
+    .contenedor {
+        background-color: white;
+        max-width:700px;
+        padding-right:30px;
+        height: 500px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+
+    }
+
+    body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 }
